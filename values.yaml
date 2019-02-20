@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: pawankmr301/alpine-eia
+  repository: pawankmr301/spring-eureka-server
   tag: latest
   pullPolicy: IfNotPresent
 
