@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "amway-eks"
+  cluster:
+    server: "https://34.222.57.79/k8s/clusters/c-rrfxz"
+    api-version: v1
+    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM3akNDQ\
+      WRhZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFvTVJJd0VBWURWUVFLRXdsMGFHVXQKY\
+      21GdVkyZ3hFakFRQmdOVkJBTVRDV05oZEhSc1pTMWpZVEFlRncweE9UQXlNakF4TkRFNU1UQmFGd\
+      zB5T1RBeQpNVGN4TkRFNU1UQmFNQ2d4RWpBUUJnTlZCQW9UQ1hSb1pTMXlZVzVqYURFU01CQUdBM\
+      VVFQXhNSlkyRjBkR3hsCkxXTmhNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ\
+      0tDQVFFQTJQN3RibW5WaFhwT3BCSWMKZUExVWJ6MW5IWm4yd1FZY0paQXA3VkhOaExpT3U4enplY\
+      0l6emQwbk9NbU4vQ2J2REVPbnE2VHpIZUoxaXIzNQowRFN6MnBnYnJyZlFWSnJOSWhyelZtNkRlR\
+      kFPTnZpRm0vcVVrM29ZdFpqeDJ4QjgzOU9DU29zdjdha1Fpb0QwCnYxd0NqQlQ5dlZNOVk4SDB3V\
+      EJQeXhaYXJhR1VuUmQxeWxEQVczYU9oN2NxMVdkY1ZDQnpuUzJobFVJcjB5WWoKQ0Vza2RFYVpRU\
+      E5yTlordnlobTcvVE45aVpocVBYZmRnblBwRTZNRXMydVh2SFMwVVlqM3JUQVRMUVNESDVEagovT\
+      EkrOElpRUlXUUtqYUYvV1pwMU9PSHFUUTcvMmQ2MGZxWW9TVzdyRVp3RGFSZWh5SzNkRVV1V21LM\
+      3pKNTZICmc0cGxwUUlEQVFBQm95TXdJVEFPQmdOVkhROEJBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRS\
+      C9CQVV3QXdFQi96QU4KQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBRHdtREdWRmp4U1grQytvY0g4U\
+      mhMdmx5MXhKdzFGMnVqRXdCSVdBVwp4WkpyMXQ2RlpEQzZGaUFxNDlMdXdueUNBRDdnaUtkbmY1M\
+      jN4Ymh4TEFaaXEvYnZ1S2JJV1lEK0F3MUd6ajdYCkllOEU2bWpuOE9VWWRmOW1KTFJ5YXV3YkMrR\
+      kFPTXg5OS9lMERNL3NsQlBTUW52YXJaZnNWYWxNdElnYmZOd1IKYzZDNVI4N2FncXI1emQ5b21xM\
+      isxemlTTFNmYjkwdlZVK2ZocGkzNzdWMW81UWhvNHkvZkxGMUR5YVBrMkdKTQpvajQ4VWUyTE1vc\
+      m1vVzRWejFwTWlZd0tiQ1dCaDhPV0dRUVhlblA3d3hnK2dhQWZHbE14TEZBWHNrNG5GL211CkoxS\
+      U9mekxiVHMwckkyM0wxQlBWSUNEMHp3MTJNdWZQNVpuUjROMjRNRktLR1E9PQotLS0tLUVORCBDR\
+      VJUSUZJQ0FURS0tLS0t"
+
+users:
+- name: "user-7rrmm"
+  user:
+    token: "kubeconfig-user-7rrmm:fz5hf9zfxk9cgg8n9sr5vljw278v5sqlfscn86zx6dv9bgqzf4zjxt"
+
+contexts:
+- name: "amway-eks"
+  context:
+    user: "user-7rrmm"
+    cluster: "amway-eks"
+
+current-context: "amway-eks"
